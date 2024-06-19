@@ -1,0 +1,40 @@
+{
+  "name": "gulp-config",
+  "version": "0.1.0",
+  "description": "Awesome node modules.",
+  "keywords": [
+    "gulp-config",
+    "cli",
+    "zce"
+  ],
+  "repository": "zce/gulp-config",
+  "license": "MIT",
+  "author": "luojinrong <luo_jinrong@126.com> (https://www.abc.com)",
+  "main": "lib/index.js",
+  "bin": "bin/gulp-config.js",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "scripts": {
+    "lint": "standard --fix",
+    "prepare": "npm run lint"
+  },
+  "renovate": {
+    "extends": [
+      "zce"
+    ]
+  },
+  "dependencies": {
+    "cac": "^6.7.14"
+  },
+  "devDependencies": {
+    "standard": "17.0.0"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
